@@ -1,0 +1,11 @@
+{
+  "name": "fastlane-ci-server",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "author": "Evgeniy Khramkov <ewgeniux@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2"
+  }
+}
