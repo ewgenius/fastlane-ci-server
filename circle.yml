@@ -1,5 +1,9 @@
+dependencies:
+  override:
+    - npm install
 deployment:
   staging:
     branch: master
-    heroku:
-      appname: fastlane-ci-server
+    commands:
+      - npm run build
+      - git push git@heroku.com:fastlane-ci-server.git $CIRCLE_SHA1:master
